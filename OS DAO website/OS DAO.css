@@ -1,4 +1,4 @@
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 750px) {
 
     body {
         background-color: black;
@@ -35,7 +35,7 @@
 
     .first-class {
         display: grid;
-        width: 20em;
+        width: 100%;
         grid-template-columns: auto;
         justify-content: center;
         margin-top: 2.5em;
@@ -138,8 +138,8 @@
         display: grid;
         border: none;
         grid-template-columns: auto;
-        width: 20em;
-        justify-content: space-around;
+        width: 100%;
+        justify-content: center;
         margin-bottom: 2em;
     }
 
